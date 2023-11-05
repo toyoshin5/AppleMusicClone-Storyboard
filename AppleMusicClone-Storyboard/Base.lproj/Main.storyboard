@@ -116,7 +116,7 @@
                                                             <autoresizingMask key="autoresizingMask"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="16V-gn-dej">
-                                                                    <rect key="frame" x="44" y="22" width="42" height="21"/>
+                                                                    <rect key="frame" x="28" y="22" width="42" height="21"/>
                                                                     <constraints>
                                                                         <constraint firstAttribute="height" constant="21" id="qts-Ge-MYp"/>
                                                                     </constraints>
@@ -125,7 +125,7 @@
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G5V-zu-rWt">
-                                                                    <rect key="frame" x="96" y="22" width="42" height="21"/>
+                                                                    <rect key="frame" x="84" y="22" width="42" height="21"/>
                                                                     <constraints>
                                                                         <constraint firstAttribute="height" constant="21" id="sam-me-3aF"/>
                                                                     </constraints>
@@ -145,8 +145,8 @@
                                                                 <constraint firstAttribute="trailingMargin" secondItem="lA3-74-ffd" secondAttribute="trailing" id="6JQ-nP-JF9"/>
                                                                 <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="G5V-zu-rWt" secondAttribute="trailing" constant="20" id="8xg-yp-8Dv"/>
                                                                 <constraint firstAttribute="bottomMargin" secondItem="lA3-74-ffd" secondAttribute="bottom" id="AQj-0K-cxj"/>
-                                                                <constraint firstItem="16V-gn-dej" firstAttribute="leading" secondItem="mWz-Mw-Uux" secondAttribute="leadingMargin" constant="24" id="CeG-88-gym"/>
-                                                                <constraint firstItem="G5V-zu-rWt" firstAttribute="leading" secondItem="16V-gn-dej" secondAttribute="trailing" constant="10" id="HeG-Wp-gbn"/>
+                                                                <constraint firstItem="16V-gn-dej" firstAttribute="leading" secondItem="mWz-Mw-Uux" secondAttribute="leadingMargin" constant="8" id="CeG-88-gym"/>
+                                                                <constraint firstItem="G5V-zu-rWt" firstAttribute="leading" secondItem="16V-gn-dej" secondAttribute="trailing" constant="14" id="HeG-Wp-gbn"/>
                                                                 <constraint firstItem="lA3-74-ffd" firstAttribute="top" secondItem="mWz-Mw-Uux" secondAttribute="topMargin" id="IXg-SO-ISC"/>
                                                                 <constraint firstItem="16V-gn-dej" firstAttribute="centerY" secondItem="mWz-Mw-Uux" secondAttribute="centerY" id="NjJ-A7-9Go"/>
                                                                 <constraint firstItem="G5V-zu-rWt" firstAttribute="centerY" secondItem="mWz-Mw-Uux" secondAttribute="centerY" id="dKS-7g-YiC"/>
