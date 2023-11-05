@@ -133,11 +133,21 @@
                                                                     <nil key="textColor"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
+                                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="ellipsis" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="lA3-74-ffd">
+                                                                    <rect key="frame" x="354" y="18.666666666666668" width="19" height="27.999999999999989"/>
+                                                                    <color key="tintColor" systemColor="labelColor"/>
+                                                                    <constraints>
+                                                                        <constraint firstAttribute="width" constant="19" id="FP3-SL-TRC"/>
+                                                                    </constraints>
+                                                                </imageView>
                                                             </subviews>
                                                             <constraints>
+                                                                <constraint firstAttribute="trailingMargin" secondItem="lA3-74-ffd" secondAttribute="trailing" id="6JQ-nP-JF9"/>
                                                                 <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="G5V-zu-rWt" secondAttribute="trailing" constant="20" id="8xg-yp-8Dv"/>
+                                                                <constraint firstAttribute="bottomMargin" secondItem="lA3-74-ffd" secondAttribute="bottom" id="AQj-0K-cxj"/>
                                                                 <constraint firstItem="16V-gn-dej" firstAttribute="leading" secondItem="mWz-Mw-Uux" secondAttribute="leadingMargin" constant="24" id="CeG-88-gym"/>
                                                                 <constraint firstItem="G5V-zu-rWt" firstAttribute="leading" secondItem="16V-gn-dej" secondAttribute="trailing" constant="10" id="HeG-Wp-gbn"/>
+                                                                <constraint firstItem="lA3-74-ffd" firstAttribute="top" secondItem="mWz-Mw-Uux" secondAttribute="topMargin" id="IXg-SO-ISC"/>
                                                                 <constraint firstItem="16V-gn-dej" firstAttribute="centerY" secondItem="mWz-Mw-Uux" secondAttribute="centerY" id="NjJ-A7-9Go"/>
                                                                 <constraint firstItem="G5V-zu-rWt" firstAttribute="centerY" secondItem="mWz-Mw-Uux" secondAttribute="centerY" id="dKS-7g-YiC"/>
                                                             </constraints>
@@ -205,10 +215,10 @@
                                 <viewLayoutGuide key="frameLayoutGuide" id="p8l-hY-BC8"/>
                             </scrollView>
                             <view contentMode="scaleToFill" restorationIdentifier="shadow" translatesAutoresizingMaskIntoConstraints="NO" id="fub-Mh-dqL">
-                                <rect key="frame" x="20" y="882" width="353" height="56"/>
+                                <rect key="frame" x="12" y="882" width="369" height="56"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UQ7-Qb-Wvj">
-                                        <rect key="frame" x="0.0" y="0.0" width="353" height="56"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="369" height="56"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ordinary_songs" translatesAutoresizingMaskIntoConstraints="NO" id="VOO-jk-eGZ">
                                                 <rect key="frame" x="8" y="8" width="40" height="40"/>
@@ -222,13 +232,13 @@
                                                 </userDefinedRuntimeAttributes>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Good Day" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LFo-lB-UZg">
-                                                <rect key="frame" x="54" y="8" width="205" height="40"/>
+                                                <rect key="frame" x="54" y="8" width="221" height="40"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="x5G-xq-Hct">
-                                                <rect key="frame" x="267" y="10" width="18" height="36"/>
+                                                <rect key="frame" x="283" y="10" width="18" height="36"/>
                                                 <color key="tintColor" systemColor="labelColor"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="18" id="yfx-GJ-63n"/>
@@ -236,7 +246,7 @@
                                                 <imageReference key="image" image="play.fill" catalog="system" symbolScale="medium"/>
                                             </imageView>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="forward.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="am4-gW-65I">
-                                                <rect key="frame" x="309" y="10.666666666666664" width="28" height="35"/>
+                                                <rect key="frame" x="325" y="10.666666666666664" width="28" height="35"/>
                                                 <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="28" id="Y5j-dC-3Ny"/>
@@ -295,9 +305,9 @@
                         <constraints>
                             <constraint firstItem="3VJ-bp-aWS" firstAttribute="bottom" secondItem="fub-Mh-dqL" secondAttribute="bottom" constant="28" id="3vD-4J-xyu"/>
                             <constraint firstItem="3VJ-bp-aWS" firstAttribute="trailing" secondItem="WOP-pU-60Q" secondAttribute="trailing" id="HSH-zA-lNe"/>
-                            <constraint firstItem="fub-Mh-dqL" firstAttribute="leading" secondItem="3VJ-bp-aWS" secondAttribute="leading" constant="20" id="Lxl-Np-sRf"/>
+                            <constraint firstItem="fub-Mh-dqL" firstAttribute="leading" secondItem="3VJ-bp-aWS" secondAttribute="leading" constant="12" id="Lxl-Np-sRf"/>
                             <constraint firstItem="WOP-pU-60Q" firstAttribute="top" secondItem="3VJ-bp-aWS" secondAttribute="top" id="SJr-Xq-X06"/>
-                            <constraint firstItem="3VJ-bp-aWS" firstAttribute="trailing" secondItem="fub-Mh-dqL" secondAttribute="trailing" constant="20" id="dzc-ZU-trz"/>
+                            <constraint firstItem="3VJ-bp-aWS" firstAttribute="trailing" secondItem="fub-Mh-dqL" secondAttribute="trailing" constant="12" id="dzc-ZU-trz"/>
                             <constraint firstAttribute="bottom" secondItem="WOP-pU-60Q" secondAttribute="bottom" id="sb1-fh-wbz"/>
                             <constraint firstItem="WOP-pU-60Q" firstAttribute="leading" secondItem="3VJ-bp-aWS" secondAttribute="leading" id="ych-J8-CSc"/>
                         </constraints>
@@ -333,6 +343,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="ellipsis" catalog="system" width="128" height="37"/>
         <image name="forward.fill" catalog="system" width="128" height="77"/>
         <image name="ordinary_songs" width="682.66668701171875" height="682.66668701171875"/>
         <image name="play.fill" catalog="system" width="117" height="128"/>
