@@ -16,6 +16,8 @@
 		F0D831D42AF67C6000824DAB /* AppleMusicClone_StoryboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D831D32AF67C6000824DAB /* AppleMusicClone_StoryboardTests.swift */; };
 		F0D831DE2AF67C6000824DAB /* AppleMusicClone_StoryboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D831DD2AF67C6000824DAB /* AppleMusicClone_StoryboardUITests.swift */; };
 		F0D831E02AF67C6000824DAB /* AppleMusicClone_StoryboardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D831DF2AF67C6000824DAB /* AppleMusicClone_StoryboardUITestsLaunchTests.swift */; };
+		F0D831EE2AF6A6A500824DAB /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D831ED2AF6A6A500824DAB /* UIViewExtension.swift */; };
+		F0D831F02AF6BF4E00824DAB /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D831EF2AF6BF4E00824DAB /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,9 @@
 		F0D831D92AF67C6000824DAB /* AppleMusicClone-StoryboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AppleMusicClone-StoryboardUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0D831DD2AF67C6000824DAB /* AppleMusicClone_StoryboardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleMusicClone_StoryboardUITests.swift; sourceTree = "<group>"; };
 		F0D831DF2AF67C6000824DAB /* AppleMusicClone_StoryboardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleMusicClone_StoryboardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F0D831EC2AF67F3000824DAB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F0D831ED2AF6A6A500824DAB /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		F0D831EF2AF6BF4E00824DAB /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +84,7 @@
 		F0D831B02AF67C5F00824DAB = {
 			isa = PBXGroup;
 			children = (
+				F0D831EC2AF67F3000824DAB /* README.md */,
 				F0D831BB2AF67C5F00824DAB /* AppleMusicClone-Storyboard */,
 				F0D831D22AF67C6000824DAB /* AppleMusicClone-StoryboardTests */,
 				F0D831DC2AF67C6000824DAB /* AppleMusicClone-StoryboardUITests */,
@@ -102,10 +108,12 @@
 				F0D831BC2AF67C5F00824DAB /* AppDelegate.swift */,
 				F0D831BE2AF67C5F00824DAB /* SceneDelegate.swift */,
 				F0D831C02AF67C5F00824DAB /* ViewController.swift */,
+				F0D831ED2AF6A6A500824DAB /* UIViewExtension.swift */,
 				F0D831C22AF67C5F00824DAB /* Main.storyboard */,
 				F0D831C52AF67C6000824DAB /* Assets.xcassets */,
 				F0D831C72AF67C6000824DAB /* LaunchScreen.storyboard */,
 				F0D831CA2AF67C6000824DAB /* Info.plist */,
+				F0D831EF2AF6BF4E00824DAB /* TableViewCell.swift */,
 			);
 			path = "AppleMusicClone-Storyboard";
 			sourceTree = "<group>";
@@ -258,8 +266,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0D831F02AF6BF4E00824DAB /* TableViewCell.swift in Sources */,
 				F0D831C12AF67C5F00824DAB /* ViewController.swift in Sources */,
 				F0D831BD2AF67C5F00824DAB /* AppDelegate.swift in Sources */,
+				F0D831EE2AF6A6A500824DAB /* UIViewExtension.swift in Sources */,
 				F0D831BF2AF67C5F00824DAB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
